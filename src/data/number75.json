@@ -1,0 +1,85 @@
+{
+    "date": "MAY 2021",
+    "promotion":
+    {
+        "postSource": "promotion",
+        "postTitle": "[Free eBook] The Seven DevOps Steps You are Missing",
+        "postDescription": "It’s a truth universally acknowledged: DevOps teams know what they should be doing, but they often don’t do it. In this eBook, we’re going to look at seven potentially overlooked steps and show you how a DevOps platform would make them possible.",
+        "postLink": "#"
+    },
+    "blogPosts":
+    [
+        {
+            "postSource": "stackoverflow.blog",
+            "postTitle": "Incremental Static Regeneration: Building static sites a little at a time",
+            "postDescription": "There are a lot of opinions out there about how to improve and scale sites “beyond the Jamstack” by adding in features that use a Node server in addition to the pre-built pages. We explore a feature called Incremental Static Regeneration, otherwise known as “hybrid web development.”",
+            "postLink": "#"
+        },
+        {
+            "postSource": "stackoverflow.blog",
+            "postTitle": "Using Kubernetes to rethink your system architecture and ease technical debt",
+            "postDescription": "When you’re weighing the risk and reward of replacing architecture, it can take several attempts to find a solution that works for you. This is a story about trying to rethink complex systems: the challenges you face when you try to rebuild them, the burdens you face as they grow, and how inaction itself can cause it’s own problems.",
+            "postLink": "#"
+        },
+        {
+            "postSource": "stackoverflow.blog",
+            "postTitle": "Podcast 339: Where design meets development at Stack Overflow",
+            "postDescription": "We chat with Stack Overflow’s director of brand design about the way his work overlaps with our development.",
+            "postLink": "#"
+        }
+    ],
+    "questionPosts":
+    [
+        {
+            "postSource": "reverseengineering.stackexchange.com",
+            "postTitle": "Why do reversers nowadays reverse engineer using decompilers and not disassemblers?",
+            "postDescription": "Do you know your decompilers from your disassemblers? (Does anyone truly?)",
+            "postLink": "#"
+        },
+        {
+            "postSource": "security.stackexchange.com",
+            "postTitle": "Should I log users in if they enter valid login info in registration form?",
+            "postDescription": "Is reminding users of existing accounts an account enumeration attack?",
+            "postLink": "#"
+        },
+        {
+            "postSource": "chemistry.stackexchange.com",
+            "postTitle": "How much is 1 mμg?",
+            "postDescription": "And how much sunshine do you need for 1 mμg of  B12?",
+            "postLink": "#"
+        },
+        {
+            "postSource": "physics.stackexchange.com",
+            "postTitle": "Why do string instruments need hollow bodies?",
+            "postDescription": "We plucked this question because it has such a sound answer.",
+            "postLink": "#"
+        }
+    ],
+    "externalPosts":
+    [
+        {
+            "postSource": "orbit.love",
+            "postTitle": "Classifying communities with the three Ps: Product, practice, and play",
+            "postDescription": "If you’re building a technical community for your organization, it’s important to understand what type of community you’re building when strategizing about your goals.",
+            "postLink": "#"
+        },
+        {
+            "postSource": "nodesource.com",
+            "postTitle": "The Node.js application maintainer guide",
+            "postDescription": "Maintaining Node.js apps can be cumbersome, but following best practices can make it less of a grind.",
+            "postLink": "#"
+        },
+        {
+            "postSource": "dev.to",
+            "postTitle": "Five developer tools for detecting and fixing security vulnerabilities",
+            "postDescription": "In a vast subject like application security, we need more than sheer will to learn and keep our code safe. We need good tools!",
+            "postLink": "#"
+        },
+        {
+            "postSource": "obedparla.com",
+            "postTitle": "A visual guide to React mental models",
+            "postDescription": "A good mental model is always a powerful tool for remembering how different frameworks and concepts work. This is a great way to think about React!",
+            "postLink": "#"
+        }
+    ]
+}

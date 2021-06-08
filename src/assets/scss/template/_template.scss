@@ -1,0 +1,222 @@
+// These are the styles to make some of the templates look extra nice.
+// Feel free to remove these styles for production!
+
+// Body Styles 
+body,
+html, 
+.body {
+  background: #f3f3f3 !important;
+}
+p
+{
+  hyphens:none;
+}
+.emailContainer
+{
+  background-color: #ffffff;
+  background:#ffffff;
+}
+
+.logoArea
+{
+  background-color:#f3f3f5;
+}
+.stackOverflowLogo
+{
+  width:146px;
+  padding-left:30px;
+  padding-bottom:20px;
+  padding-top:20px;
+}
+
+.headerImage
+{
+  max-width:354px;
+  width:100%;
+  padding-top:20px;
+}
+.date
+{
+  color:#6a737c;
+  font-size:12px;
+  margin-bottom:6px;
+  text-align:center;
+  padding-bottom:30px;
+}
+.blogRow
+{
+  width:90% !important;
+  .headerIntro
+  {
+    padding-bottom:30px;
+    margin-bottom:30px;
+    border-bottom:solid 1px #d6d8db;
+    a
+    {
+      color:#15c;
+    }
+  }
+  .sectionTitle
+  {
+    font-family:'Roboto Slab', Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+    color:#3c3f44;
+    font-size:19px;
+    font-weight:600;
+    vertical-align: middle;
+    margin-left:10px;
+  }
+  .sectionTitleTable
+  {
+    vertical-align: middle;
+    
+    
+    td
+    {
+      
+      vertical-align: middle;
+    }
+  }
+  .sectionDescription
+  {
+    color:#3c3f44;
+    margin-top:20px;
+    a
+    {
+      color:#15c;
+    }
+  }
+  .postTitle
+  {
+    color:#0077cc;
+    font-weight:600;
+    text-decoration:none;
+    font-size:15px;
+    hyphens:none;
+  }
+  .postSource
+  {
+    color:#6a737c !important;
+    font-size:12px;
+    margin-bottom:6px;
+    margin-top:20px;
+    text-decoration:none;
+  }
+  .postSource a.autoLink
+  {
+    color:#6a737c !important;
+    font-size:12px;
+    text-decoration:none;
+  }
+  .postSource 
+  {
+    .promotion
+    {
+      background:#ffeea9;
+      border:3px solid #ffeea9;
+    }
+  }
+  .postDescription
+  {
+    font-size:15px;
+    color:#3c3f44;
+    margin-bottom:30px;
+    hyphens:none;
+  }
+  .sectionImage
+  {
+    display:inline-block;
+    width:26px;
+  }
+
+  .borderB
+  {
+    padding-bottom:30px;
+    border-bottom:solid 1px #d6d8db !important;
+  }
+
+  .borderB.smaller
+  {
+    padding-bottom:10px;
+    border-bottom:solid 1px #d6d8db !important;
+    margin-bottom:30px !important;
+  }
+
+  .teams
+  {
+    margin-bottom:30px;
+    a
+    {
+      color:#15c;
+    }
+  }
+}
+
+.footerSection
+{
+  background-color: #f3f3f3;
+  background: #f3f3f3;
+  width:90% !important;
+  p
+  {
+    color:#6a737c;
+    font-size:12px;
+  }
+  a
+  {
+    color:#6a737c;
+    font-size:12px;
+    text-decoration: underline;
+    margin-right:10px;
+  }
+  .footerImage
+  {
+    width:111px;
+    padding-bottom:5px;
+  }
+  .footerText
+  {
+    margin-bottom:10px;
+    margin-top:30px;
+  }
+  .address
+  {
+    margin-bottom:5px;
+  }
+  .heart
+  {
+    border:1px solid #d6d9dc;
+    color:#e06c77;
+    padding-top:4px;
+    padding-right:6px;
+    padding-bottom:3px;
+    padding-left:6px;
+    display:inline-block;
+    margin-bottom:30px;
+    background-color: #ffffff !important;
+    background: #ffffff !important;
+  }
+  .borderB.smaller
+  {
+    padding-bottom:10px;
+    border-bottom:solid 1px #d6d8db !important;
+    margin-bottom:30px !important;
+    margin-top:20px !important;
+  }
+}
+.footerRow
+{
+  background-color: #f3f3f3;
+  background: #f3f3f3;
+  
+}
+.sideSpaceFooter, .sideSpaceFooter th,.sideSpaceFooter table, .sideSpaceFooter tr
+  {
+    background-color: #f3f3f3 !important;
+    background: #f3f3f3 !important;
+    width:5% !important;
+    height:277px !important;
+  }
+.sideSpace
+{
+  width:5% !important;
+}

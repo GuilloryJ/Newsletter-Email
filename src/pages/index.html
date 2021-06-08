@@ -1,0 +1,97 @@
+---
+layout: index-layout
+subject: Newsletter
+---
+
+<container class="emailContainer">
+    <row>
+      <columns class="logoArea">
+        <a href="#"><img src="https://jackisbuilding.com/images/newsletter/logo.png" class="stackOverflowLogo"></a>
+      </columns>
+    </row>
+    <row>
+      <columns class="sideSpace" large="1" small="1" width="5%"></columns>
+      <columns class="innerCol" large="10" small="10" width="90%">
+        <row>
+          <columns large="12" small="12" class="blogRow">
+            <h1><center><img src="https://jackisbuilding.com/images/newsletter/headerLogo.png" class="headerImage"></center></h1>
+            <p class="date">{{number75.date}}</p>
+            <p class="headerIntro">Welcome to ISSUE #75 of the Overflow! This newsletter is by developers, for developers, written and curated by the Stack Overflow team and <a href="#">Cassidy Williams</a> at <a href="#">Netlify</a>. This week: Rebuilding static sites a little at a time, telling the difference between decompilers and disassemblers, and five tools to fix security holes.</p>
+            
+            <!-- Blog -->
+            <table class="sectionTitleTable">
+              <tr>
+                <td width="26px">
+                  <img src="https://jackisbuilding.com/images/newsletter/pen.png" class="sectionImage">
+                </td> 
+                <td>
+                  <h2 class="sectionTitle">From the blog</h2>
+                </td>
+              </tr>
+            </table>
+            {{#each number75.blogPosts}}
+            <p class="postSource"><a href="#" class="postTitle">{{postTitle}} </a>{{postSource}}</p>
+            <p class="postDescription">{{postDescription}} </p>
+            {{/each}}
+            <p class="postSource"><a href="#" class="postTitle">{{number75.promotion.postTitle}} </a><span class="promotion">{{number75.promotion.postSource}}</span></p>
+            <p class="postDescription borderB">{{number75.promotion.postDescription}}” </p>
+
+            <!-- Questions -->
+            <table class="sectionTitleTable">
+              <tr>
+                <td width="26px">
+                  <img src="https://jackisbuilding.com/images/newsletter/check.png" class="sectionImage">
+                </td>
+                <td>
+                  <h2 class="sectionTitle">Interesting questions</h2>
+                </td>
+              </tr>
+            </table>
+            <p class="sectionDescription"><i>Found a good question or answer? Tweet us with the hashtag #StackOverflowKnows or email us at <a href="stackoverflowknows@stackoverflow.com">stackoverflowknows@stackoverflow.com</a>. We’ll include our favorites in the future.</i></p>
+            {{#each number75.questionPosts}}
+            <p class="postSource"><a href="#" class="postTitle">{{postTitle}} </a><a class="autoLink">{{postSource}}</a></p>
+            <p class="postDescription">{{postDescription}} </p>
+            {{/each}}
+
+            <p class="borderB smaller"></p>
+
+            <!-- External -->
+            <table class="sectionTitleTable">
+              <tr>
+                <td width="26px">
+                  <img src="https://jackisbuilding.com/images/newsletter/star.png" class="sectionImage">
+                </td>
+                <td>
+                  <h2 class="sectionTitle">	
+                    Links from around the web</h2>
+                </td>
+              </tr>
+            </table>
+            {{#each number75.externalPosts}}
+            <p class="postSource"><a href="#" class="postTitle">{{postTitle}} </a><a class="autoLink">{{postSource}}</a></p>
+            <p class="postDescription">{{postDescription}} </p>
+            {{/each}}
+
+            <p class="teams">Onboard, organize, and bring your team up to speed in a jiffy. <a href="#">Try Stack Overflow for Teams</a>.</p>
+            <img src="https://jackisbuilding.com/images/newsletter/footerImage.png">
+          </columns>
+        </row>
+
+        
+      </columns>
+      <columns class="sideSpace" large="1" small="1" width="5%"></columns>
+    </row>
+
+    <row clas="footerRow">
+      <columns class="sideSpaceFooter" large="1" small="1" width="5%" height="100%"></columns>
+      <columns class="footerSection" large="10" small="10" width="90%">
+        <p class="footerText">You’re receiving this email because you are subscribed to The Overflow Newsletter from Stack Overflow.</p>
+        <p><a href="#">Unsubscribe from emails like this</a> <a href="#">Edit email settings</a> <a href="#">Contact us</a> <a href="#">Privacy</a></p>
+        <p class="borderB smaller"></p>
+        <img src="https://jackisbuilding.com/images/newsletter/footerLogo.png" class="footerImage">
+        <p class="address"><b>Stack Overflow</b>, 110 William Street, 28th Floor, New York, NY 10038</p>
+        <p class="heart">&#60;3</p>
+      </columns>
+      <columns class="sideSpaceFooter" large="1" small="1" width="5%"></columns>
+    </row>
+</container>
